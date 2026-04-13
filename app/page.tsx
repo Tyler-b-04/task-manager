@@ -1,12 +1,17 @@
+// ==================================================
+// COMPONENT: HomePage
+// PURPOSE: Entry page for the app.
+// This keeps the file simple and delegates all interactive
+// task logic to the TaskBoard, which is the client component.
+// TYPE: Server Component
+// PROPS: None
+// ==================================================
 import TaskCard from './components/TaskCard';
 
 export default function HomePage() {
   return (
-    <main className="p-8">
-      <h1 className="text-2xl font-bold mb-4">Task Manager</h1>
-      <TaskCard title="Buy milk" done={false} id={undefined} onToggle={undefined} />
-      <TaskCard title="Write tests" done={true} id={undefined} onToggle={undefined}  />
-      <TaskCard title="Ship it" done={false} id={undefined} onToggle={undefined} />
+    <main className="min-h-screen bg-zinc-950 text-zinc-100 px-6 py-10">
+      <TaskCard title={undefined} done={undefined} id={undefined} onToggle={undefined} />
     </main>
   );
 }

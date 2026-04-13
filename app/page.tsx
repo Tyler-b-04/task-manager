@@ -1,5 +1,3 @@
-import TaskCard from './components/TaskCard';
-
 // ==================================================
 // COMPONENT: HomePage
 // PURPOSE: Entry page for the app.
@@ -12,7 +10,7 @@ import TaskCard from './components/TaskCard';
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-zinc-950 text-zinc-100 px-6 py-10">
-      <TaskCard title={undefined} done={undefined} id={undefined} onToggle={undefined} />
+      <h1>Task Manager 2.0</h1>
     </main>
   );
 }

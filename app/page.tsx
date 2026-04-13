@@ -1,3 +1,5 @@
+import TaskCard from './components/TaskCard';
+
 // ==================================================
 // COMPONENT: HomePage
 // PURPOSE: Entry page for the app.
@@ -6,7 +8,6 @@
 // TYPE: Server Component
 // PROPS: None
 // ==================================================
-import TaskCard from './components/TaskCard';
 
 export default function HomePage() {
   return (

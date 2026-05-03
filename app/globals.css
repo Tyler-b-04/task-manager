@@ -6,7 +6,7 @@ body {
   color: #f4f4f5;
 }
 
-/* Keeps layout spacing more predictable across elements. */
+/* Keeps layout spacing more consistent across elements. */
 * {
   box-sizing: border-box;
 }

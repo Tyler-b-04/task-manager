@@ -18,10 +18,6 @@ I customized the project with a dark gray and orange theme to make the design mo
 
 ## How to Run the Project
 
-1. Clone the repository:
-
-
-
 ```bash
 npm run dev
 # or
